@@ -10,6 +10,7 @@
   min-height: 800px;
   position: relative;
   z-index: 1;
+  margin-bottom: 100px;
 }
 
 .logo__element {
@@ -183,4 +184,133 @@
   border-radius: 4px;
   border: none;
   padding: 0;
+}
+
+/* ABOUT US*/
+
+.about-us {
+  min-height: 950px;
+  position: relative;
+  z-index: 1;
+}
+
+.content-us {
+  margin-left: 100px;
+  min-width: 1052px;
+}
+
+.section-title {
+  width: 952px;
+  height: 98px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.title-block {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  margin:0;
+}
+
+.name-block {
+  margin:0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: right;
+  color: rgba(34, 34, 34, 0.1);
+  text-transform: uppercase;
+}
+
+.background-block {
+  position: absolute;
+  width: 278px;
+  height: 388px;
+  z-index: -1;
+  border-top-right-radius: 120px 120px;
+  border-bottom-left-radius: 120px 120px;
+}
+
+.background-block_content_place {
+  left: 100px;
+  top: 138px;
+  background: #F7DEA6;
+}
+
+.content-us__image {
+  position: absolute;
+  width: 388px;
+  height: 306px;
+  left: 138px;
+  top: 220px;
+}
+
+.content-us__text {
+  position: absolute;
+  width: 448px;
+  height: 180px;
+  left: 604px;
+  top: 242px;
+}
+
+.content-us__text-first {
+  margin: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.content__text-normal {
+  font-weight: normal;
+}
+
+.content-us__text-second {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.content-us__text-last {
+  position: absolute;
+  width: 648px;
+  height: 131px;
+  left: 102px;
+  top: 693px;
+}
+
+.content-us__text-last-first {
+  margin: 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000000;
+  width: 648px;
+}
+
+.content__text-last-bold {
+  font-weight: 800;
+}
+
+.content-us__text-second-second {
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.content-us__image-second {
+  position: absolute;
+  width: 287px;
+  height: 384px;
+  left: 865px;
+  top: 566px;
 }
