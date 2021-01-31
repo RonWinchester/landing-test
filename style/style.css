@@ -18,7 +18,7 @@
 }
 
 .logo-image {
-  background: url(/image/Group28.png) no-repeat;
+  background: url(../image/Group28.png) no-repeat;
 }
 
 .logo-image_header_place {
@@ -470,7 +470,7 @@
   position: absolute;
   left: 0px;
   bottom: 0px;
-  background-image: url(/image/footer1.png);
+  background-image: url(../image/footer1.png);
   background-repeat: no-repeat;
   width: 644px;
   height: 455px;
@@ -482,7 +482,7 @@
   height: 455px;
   right: 0px;
   bottom: 0px;
-  background-image: url(/image/footer2.png);
+  background-image: url(../image/footer2.png);
   background-repeat: no-repeat;
 }
 
