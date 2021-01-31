@@ -416,3 +416,149 @@
   position: relative;
   left: -15px;
 }
+
+/*footer*/
+
+.footer {
+  position: relative;
+  width: 1152px;
+  height: 455px;
+  z-index: 1;
+
+}
+
+.logo-image_footer_place {
+  width: 192px;
+  height: 33px;
+}
+
+.line {
+  position: absolute;
+  width: 708px;
+  height: 0px;
+  left: 108px;
+  bottom: 247px;
+  border: 1px solid #C4C4C4;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 192px;
+  height: 138px;
+}
+
+.contact__item, .footer-columns__item {
+  margin-top: 16px;
+}
+.contact__url, .product__url {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #8D8D8D;
+}
+
+.footer__image {
+  z-index: -1;
+}
+
+.footer__image_first_pic {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-image: url(/image/footer1.png);
+  background-repeat: no-repeat;
+  width: 644px;
+  height: 455px;
+}
+
+.footer__image_second_pic {
+  position: absolute;
+  width: 508px;
+  height: 455px;
+  right: 0px;
+  bottom: 0px;
+  background-image: url(/image/footer2.png);
+  background-repeat: no-repeat;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 709px;
+  height: 138px;
+  padding: 0px;
+  position: absolute;
+  left: 107px;
+  bottom: 85px;
+}
+
+.contacts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.footer__items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.footer__subtitle {
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer__item {
+  margin-right: 52px;
+}
+
+.footer-columns {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-columns__item {
+  list-style: none;
+}
+
+.footer__item:last-child {
+  margin-right: 0;
+}
+
+.copyright {
+  position: absolute;
+  width: 104px;
+  height: 16px;
+  left: 524px;
+  bottom: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8D8D8D;
+}
+
+
+a:hover {
+  color:#DAA520;
+}
+
+button:hover {
+  opacity: 0.8;
+  border: 2px solid #3E3F43
+}
+
+
